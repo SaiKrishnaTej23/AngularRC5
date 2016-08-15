@@ -5,7 +5,7 @@ var home_component_1 = require('./home.component');
 var about_component_1 = require('./about.component');
 var APP_ROUTES = [
     { path: '', component: home_component_1.HomeComponent },
-    { path: '/about', component: about_component_1.AboutComponent }
+    { path: 'about', component: about_component_1.AboutComponent }
 ];
 exports.APP_ROUTER_PROVIDERS = [
     router_1.provideRouter(APP_ROUTES)

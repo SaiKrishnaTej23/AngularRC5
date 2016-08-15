@@ -11,10 +11,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var nav_component_1 = require('./nav.component');
 var footer_component_1 = require('./footer.component');
-//import {APP_ROUTER_PROVIDERS } from './app.route';
-// import {HomeComponent} from './home.component'
-// import {AboutComponent} from './about.component'
-//import {ROUTER_DIRECTIVES} from '@angular/router'
 var AppComponent = (function () {
     function AppComponent() {
     }
@@ -22,7 +18,7 @@ var AppComponent = (function () {
         core_1.Component({
             selector: 'my-app',
             templateUrl: 'partials/app.component.html',
-            directives: [nav_component_1.NavComponent, footer_component_1.FooterComponent] //,
+            directives: [nav_component_1.NavComponent, footer_component_1.FooterComponent]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
