@@ -9,24 +9,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var nav_component_1 = require('./nav.component');
-var footer_component_1 = require('./footer.component');
-//import {APP_ROUTER_PROVIDERS } from './app.route';
-// import {HomeComponent} from './home.component'
-// import {AboutComponent} from './about.component'
-//import {ROUTER_DIRECTIVES} from '@angular/router'
-var AppComponent = (function () {
-    function AppComponent() {
+var AboutComponent = (function () {
+    function AboutComponent() {
     }
-    AppComponent = __decorate([
+    AboutComponent.prototype.ngOnInit = function () {
+    };
+    AboutComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            templateUrl: 'partials/app.component.html',
-            directives: [nav_component_1.NavComponent, footer_component_1.FooterComponent] //,
+            //moduleId: module.id,
+            selector: 'im-about',
+            templateUrl: 'partials/about.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], AboutComponent);
+    return AboutComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.AboutComponent = AboutComponent;
+//# sourceMappingURL=about.component.js.map
