@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var AboutComponent = (function () {
     function AboutComponent() {
+        this.AboutMsg = "This is the message i am getting from the database so that we can display it in the front end.";
     }
     AboutComponent.prototype.ngOnInit = function () {
     };
